@@ -1,0 +1,51 @@
+/* My Code */
+
+body {
+background-image: url(../img/backgroundwall.jpeg);
+background-repeat: vertical;
+background-position: top center;
+}
+
+.wrapper{
+
+	width: 400px;
+	height: 270px;
+	margin: 130px auto 0 auto;
+	background-color: #f5f5dc;
+	opacity: 0.9;
+    filter: alpha(opacity=90);
+     border-radius: 25px;
+    border: 2px solid #A67B5B;
+
+}
+
+.wrapper header {
+
+    text-align: center;
+    color: #000;
+    
+}
+
+.wrapper header h1 {
+
+	font-variant: small-caps;
+	color: #8B4513;
+    text-shadow: 4px 4px #C0C0C0;
+    font-size: 30px;
+
+}
+
+.wrapper p{
+
+	text-decoration: none;
+}
+
+.wrapper p a{
+
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+	font-size: 13px;
+
+}
+

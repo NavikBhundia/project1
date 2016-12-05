@@ -1,0 +1,433 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+/* change colours to suit your needs */
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* My Code */
+
+body {
+background-image: url(../img/backgroundwall.jpeg);
+background-repeat: vertical;
+background-position: top center;
+}
+
+
+header {
+
+	width: 100%;
+	height:120px;
+	background-color: #f5f5dc;
+    
+   
+}
+
+
+header img {
+
+	width: 70px;
+	height:80px;
+	margin-top: 15px;
+	margin-left: 15px;
+	float: left;
+
+}
+
+header h1 {
+
+	font-size: 1.7em;
+	float: left;
+	margin-top: 20px;
+	color: #8B4513;
+	font-variant: small-caps;
+
+}
+
+header p{
+
+    margin-top: 30px;
+    margin-right: 30px;
+    float: right;
+    color: #8B4513;
+}
+
+nav {
+
+	float: right;
+}
+
+nav ul {
+
+	margin-top: 40px;
+	margin-right: 30px;
+
+}
+
+nav ul li {
+
+	display: inline-block;
+	margin-left: 10px;
+
+}
+
+nav ul li a {
+
+	font-size: 0.9em;
+    font-weight: bold;
+	color: #8B4513;
+	text-decoration: none;
+
+}
+
+nav ul li a:hover {
+
+    color: black;
+
+}
+
+
+
+.container {
+
+    width: 800px;
+    height: auto;
+    background-color: #f5f5dc;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    border-radius: 20px;
+    border: 2px solid #A67B5B;
+    margin: 20px auto 0px auto;
+}
+
+.wrapper{
+
+    width: 800px;
+    
+}
+
+.container h3{
+
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #8B4513;
+    text-shadow: 4px 4px #C0C0C0;
+    
+}
+
+
+.cooking  p{
+
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #8B4513;
+    font-variant:small-caps;
+
+}
+
+.cooking {
+
+    display: inline-block;
+    margin: 20px 15px 15px 15px;
+    float: left;
+    border: 1px solid #A67B5B
+
+}
+
+ .cleaning p{
+
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #8B4513;
+    font-weight: bold;
+    font-variant:small-caps;
+
+}
+
+ .cleaning{
+
+    margin: 20px 15px 15px 15px;
+    float: right;
+    border: 1px solid #A67B5B
+}
+
+ .baby p{
+
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #8B4513;
+    font-variant:small-caps;
+
+}
+
+ .baby{
+
+    display: inline-block;
+    margin: 20px 15px 15px 35px;
+    float: left;
+    border: 1px solid #A67B5B
+}
+
+ .senior p{
+
+    text-align: center;
+    font-size: 15px;
+    color: #8B4513;
+    margin-top: 10px;
+    font-weight: bold;
+    font-variant:small-caps;
+
+}
+
+ .senior {
+
+
+    margin: 20px 15px 55px 150px;
+    float: left;
+    border: 1px solid #A67B5B
+}
+
+ .general p{
+
+    text-align: center;
+    font-size: 15px;
+    color: #8B4513;
+    margin-top: 10px;
+    font-weight: bold;
+    font-variant:small-caps;
+
+}
+
+ .general {
+
+
+    margin: 20px 150px 55px 15px;
+    float: right;
+    border: 1px solid #A67B5B
+}
+
+
+  
+#How {
+
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#How h3{
+
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: bold;
+     margin-top: 50px;
+     font-size: 25px;
+     text-shadow: 4px 4px #C0C0C0;
+}
+
+
+#How article{
+
+    width: 150px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.howlogo{
+
+    width: 100%;
+    height:150px;
+}
+
+#How p{
+
+    font-size: 0.9em;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#what {
+
+    overflow: hidden;
+    width: 800px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+#what h3{
+
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-top: 60px;
+    font-size: 25px;
+    text-shadow: 4px 4px #C0C0C0;
+}
+
+
+#what article{
+
+    width: 150px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.whatlogo{
+
+    width: 100%;
+    height:150px;
+}
+
+#what p{
+
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #8B4513;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#AboutUs{
+
+    overflow: hidden;
+    width: 800px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+} 
+
+#AboutUs h3{
+
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #8B4513;
+    text-shadow: 4px 4px #C0C0C0;
+    font-variant: small-caps;
+
+
+} 
+
+#AboutUs p{
+
+    text-align: center;
+    text-decoration-style: none;
+    font-size: 15px;
+    color: black;
+    
+    
+}
+
+

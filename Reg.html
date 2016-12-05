@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <title> Domestic HouseHelp Service Outsourcing </title>
+
+  <link rel="stylesheet" type="text/css" href="css/Reg.css">
+</head>
+
+<body>
+
+  <header>
+
+    <img src="img/HouseHelp.png" alt="House Help logo">
+    
+    <h1> Domestic Househelp Service Outsourcing </h1>
+
+    <nav>
+
+      <ul>
+        <li> <a href="index.php"> HOME </a></li>
+        <li> <a href="login.html"> LOGIN </a></li>
+
+      </ul>
+      
+    </nav>
+
+  </header>
+
+
+  <div class="wrapper">
+    <section>
+
+        <h1> CLIENT REGISTRATION </h1>
+
+  </font>
+ </center>
+
+   <form  onsubmit="return validatefirst()" action="Registration.php" method="post" name="Regform" method="post">
+    <center>
+    First Name:
+    <input type="text" name="firstname" placeholder="kamadi" required><br />
+    <br />
+    Last name:
+    <input type="text" name="lastname" placeholder="mohan" required><br />
+    <br />
+    ID Number:
+    <input type="text" name="idnum" placeholder="33587540" maxlength="8" required><br />
+    <br />
+    Place of work:
+    <input type="text" name="placewrk" placeholder="Mac Auto General" required><br />
+    <br />
+    User name:
+    <input type="text" name="username" placeholder="mohanjagdish" required><br />
+    <br />
+    Password:
+    <input type="password" name="password" placeholder="********" minlength="8" required><br />
+    <br />
+    Gender:
+    <select name ="gender" required>
+    <option value="male">male</option>
+    <option value="female">female</option>
+    </select><br />
+    <br />
+
+    Phone Number:
+    <input type="text" name="phoneno" placeholder="+254701397777" minlength="13" maxlength="13" required><br />
+    <br />
+    Location:
+    <select name ="location" required>
+    <option value="CBD">CBD</option>
+    <option value="Westlands">Westlands</option>
+    <option value="Parklands">Parklands</option>
+    <option value="South C">South C</option>
+    <option value="South B">South B</option>
+    </select>  <br />
+    <br />
+    Street Name:
+    <input type="text" name="streetname" placeholder="Kijabe Street" required><br />
+    <br />
+    <input type="Submit" value="submit" required />
+    </center>
+
+    <br />
+    <p> Already have an account? <a href="login.html"> LOGIN </a></p>
+
+    </form>
+
+
+    </section>
+  </div>
+</body>
+
+</html>
